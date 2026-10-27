@@ -1,8 +1,8 @@
-# Bharat Byte | JanArogya
+#  mediConnect
 
 **SIH26133**
 
-JanArogya is a multilingual, low-connectivity healthcare coordination prototype for rural Maharashtra. It connects an ASHA worker's home visit with the PHC Medical Officer (MO), while using voice, SMS-style updates and an automated JanVaani IVR to keep patients in the care loop.
+MediConnect is a multilingual, low-connectivity healthcare coordination prototype for rural Maharashtra. It connects an ASHA worker's home visit with the PHC Medical Officer (MO), while using voice, SMS-style updates and an automated JanVaani IVR to keep patients in the care loop.
 
 > This repository contains a hackathon/demo prototype. The default data is seeded locally and the authentication, notifications and integrations must be hardened before production use.
 
