@@ -1,0 +1,15 @@
+{
+  "name": "JanArogya ASHA",
+  "short_name": "ASHA",
+  "description": "Maharashtra ASHA — home visits, voice notes, emergency, PHC workflow",
+  "start_url": "/asha",
+  "scope": "/asha",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0c2a1c",
+  "theme_color": "#0c2a1c",
+  "lang": "mr",
+  "icons": [
+    { "src": "/icons/asha", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
