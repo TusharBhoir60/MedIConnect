@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  experimental: {
+    serverComponentsExternalPackages: ["mongoose"],
+  },
   async headers() {
     return [
       {
@@ -15,4 +18,3 @@ const nextConfig = {
 };
 
 export default nextConfig;
-
