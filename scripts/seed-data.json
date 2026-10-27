@@ -1,0 +1,984 @@
+{
+  "PATIENTS": [
+    {
+      "id": "p-1",
+      "abhaId": "14-2201-8834-5501",
+      "name": "Kavita Meshram",
+      "village": "Armori",
+      "taluka": "Armori",
+      "district": "Gadchiroli",
+      "age": 24,
+      "sex": "F",
+      "phone": "9011223344",
+      "language": "mr",
+      "risk": "maternal",
+      "conditions": [
+        "ANC · 32 weeks",
+        "Mild anaemia (Hb 9.6 g/dL)",
+        "Oedema feet"
+      ],
+      "ashaId": "asha-1",
+      "carePlan": [
+        {
+          "id": "cd-1",
+          "kind": "anc",
+          "label": "ANC check + Hb at PHC",
+          "dueDate": "2026-09-05",
+          "done": false
+        },
+        {
+          "id": "cd-2",
+          "kind": "anc",
+          "label": "TT booster dose 2",
+          "dueDate": "2026-09-05",
+          "done": false
+        },
+        {
+          "id": "cd-3",
+          "kind": "anc",
+          "label": "IFA + Calcium refill",
+          "dueDate": "2026-09-03",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "p-2",
+      "abhaId": "14-2201-8834-5502",
+      "name": "Dilip Atram",
+      "village": "Wadsa",
+      "taluka": "Armori",
+      "district": "Gadchiroli",
+      "age": 61,
+      "sex": "M",
+      "phone": "9022334455",
+      "language": "mr",
+      "risk": "chronic",
+      "conditions": [
+        "Type 2 diabetes (HbA1c 8.4%)",
+        "Hypertension (BP 152/94)",
+        "CKD stage 2"
+      ],
+      "ashaId": "asha-1",
+      "carePlan": [
+        {
+          "id": "cd-4",
+          "kind": "ncd",
+          "label": "BP check + creatinine test",
+          "dueDate": "2026-09-04",
+          "done": false
+        },
+        {
+          "id": "cd-5",
+          "kind": "ncd",
+          "label": "Fasting sugar at PHC",
+          "dueDate": "2026-09-04",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "p-3",
+      "abhaId": "14-2201-8834-5503",
+      "name": "Riya Gota",
+      "village": "Armori",
+      "taluka": "Armori",
+      "district": "Gadchiroli",
+      "age": 1,
+      "sex": "F",
+      "phone": "9033445566",
+      "language": "mr",
+      "risk": "child",
+      "conditions": [
+        "18-month immunisation due",
+        "Mild fever (100.4°F) — 1 day"
+      ],
+      "ashaId": "asha-1",
+      "carePlan": [
+        {
+          "id": "cd-6",
+          "kind": "immunisation",
+          "label": "DPT booster + OPV booster",
+          "dueDate": "2026-09-06",
+          "done": false
+        },
+        {
+          "id": "cd-7",
+          "kind": "immunisation",
+          "label": "Vitamin A (2nd dose)",
+          "dueDate": "2026-09-06",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "p-4",
+      "abhaId": "14-2201-8834-5504",
+      "name": "Sanjay Tekam",
+      "village": "Armori",
+      "taluka": "Armori",
+      "district": "Gadchiroli",
+      "age": 52,
+      "sex": "M",
+      "phone": "9044556677",
+      "language": "mr",
+      "risk": "emergency",
+      "conditions": [
+        "Sudden facial droop + right arm weakness since 6 AM",
+        "Suspected CVA / stroke"
+      ],
+      "ashaId": "asha-1"
+    },
+    {
+      "id": "p-5",
+      "abhaId": "14-2201-8834-5505",
+      "name": "Anusaya Korde",
+      "village": "Pendhari",
+      "taluka": "Armori",
+      "district": "Gadchiroli",
+      "age": 21,
+      "sex": "F",
+      "phone": "9055667788",
+      "language": "mr",
+      "risk": "maternal",
+      "conditions": [
+        "ANC · 14 weeks",
+        "First pregnancy"
+      ],
+      "ashaId": "asha-1",
+      "carePlan": [
+        {
+          "id": "cd-8",
+          "kind": "anc",
+          "label": "Blood group, Hb, HIV, VDRL tests",
+          "dueDate": "2026-09-07",
+          "done": false
+        },
+        {
+          "id": "cd-9",
+          "kind": "anc",
+          "label": "TT dose 1",
+          "dueDate": "2026-09-07",
+          "done": false
+        },
+        {
+          "id": "cd-10",
+          "kind": "anc",
+          "label": "IFA + Calcium start",
+          "dueDate": "2026-09-07",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "p-6",
+      "abhaId": "14-2201-8834-5506",
+      "name": "Mohan Madavi",
+      "village": "Armori",
+      "taluka": "Armori",
+      "district": "Gadchiroli",
+      "age": 38,
+      "sex": "M",
+      "phone": "9066778899",
+      "language": "hi",
+      "risk": "routine",
+      "conditions": [
+        "TB — on DOTS (3rd month)",
+        "Weight gain monitoring"
+      ],
+      "ashaId": "asha-1",
+      "carePlan": [
+        {
+          "id": "cd-11",
+          "kind": "ncd",
+          "label": "DOTS dose observation (daily)",
+          "dueDate": "2026-09-03",
+          "done": false
+        },
+        {
+          "id": "cd-12",
+          "kind": "ncd",
+          "label": "Weight check at PHC",
+          "dueDate": "2026-09-10",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "p-7",
+      "abhaId": "14-2201-8834-5507",
+      "name": "Tara Uikey",
+      "village": "Wadsa",
+      "taluka": "Armori",
+      "district": "Gadchiroli",
+      "age": 2,
+      "sex": "F",
+      "phone": "9077889900",
+      "language": "mr",
+      "risk": "child",
+      "conditions": [
+        "SAM (W/H < −3 SD)",
+        "No oedema",
+        "Measles vaccine due"
+      ],
+      "ashaId": "asha-1",
+      "carePlan": [
+        {
+          "id": "cd-13",
+          "kind": "immunisation",
+          "label": "Measles / MR dose 1",
+          "dueDate": "2026-09-08",
+          "done": false
+        },
+        {
+          "id": "cd-14",
+          "kind": "ncd",
+          "label": "RUTF distribution at PHC",
+          "dueDate": "2026-09-04",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "p-8",
+      "abhaId": "14-2201-8834-5508",
+      "name": "Geeta Dhurve",
+      "village": "Armori",
+      "taluka": "Armori",
+      "district": "Gadchiroli",
+      "age": 29,
+      "sex": "F",
+      "phone": "9088990011",
+      "language": "mr",
+      "risk": "chronic",
+      "conditions": [
+        "Post-partum (6 weeks)",
+        "Severe anaemia (Hb 7.1 g/dL)",
+        "Exclusive breastfeeding counselled"
+      ],
+      "ashaId": "asha-1",
+      "carePlan": [
+        {
+          "id": "cd-15",
+          "kind": "ncd",
+          "label": "Hb recheck + IV iron if needed",
+          "dueDate": "2026-09-03",
+          "done": false
+        },
+        {
+          "id": "cd-16",
+          "kind": "ncd",
+          "label": "PNC 6-week check at PHC",
+          "dueDate": "2026-09-05",
+          "done": false
+        }
+      ]
+    }
+  ],
+  "VISITS": [
+    {
+      "id": "v-1",
+      "patientId": "p-1",
+      "ashaId": "asha-1",
+      "at": "2026-09-03T07:45:00",
+      "place": "Home · Armori",
+      "notes": "32-week ANC. BP 128/82 — slightly high. Feet swollen since yesterday evening. IFA stock: 5 days left. Complains of headache this morning.",
+      "voiceNotes": [
+        {
+          "id": "vn-1",
+          "createdAt": "2026-09-03T07:47:00",
+          "durationSec": 38,
+          "transcript": "Kavita tai, 32 saptahachi garbhavastha. BP thoda jaast aahe. Paya sujalay sangtat. Dokyat thoda dukhat aahe. IFA 5 divasachi golya shillak."
+        }
+      ],
+      "attachments": [],
+      "status": "submitted",
+      "triage": "pending",
+      "urgency": "urgent",
+      "submittedAt": "2026-09-03T07:52:00"
+    },
+    {
+      "id": "v-2",
+      "patientId": "p-4",
+      "ashaId": "asha-1",
+      "at": "2026-09-03T06:30:00",
+      "place": "Home · Armori",
+      "notes": "Patient found with facial droop on right side, right arm cannot lift. Speech slurred. Onset ~6 AM. Wife called me. 108 contacted. Patient conscious but confused.",
+      "voiceNotes": [
+        {
+          "id": "vn-2",
+          "createdAt": "2026-09-03T06:32:00",
+          "durationSec": 25,
+          "transcript": "Sanjay bhau, tond vakad zale, ujavya hatala shakti nahi. Bhashaahi adkhali aahe. 108 lavlay. Doctor turant bagh."
+        }
+      ],
+      "attachments": [],
+      "status": "submitted",
+      "triage": "pending",
+      "urgency": "emergency",
+      "submittedAt": "2026-09-03T06:33:00"
+    },
+    {
+      "id": "v-3",
+      "patientId": "p-3",
+      "ashaId": "asha-1",
+      "at": "2026-09-02T10:15:00",
+      "place": "Home · Armori",
+      "notes": "Fever 100.4°F since yesterday. No rash, no cough. Feeding slightly reduced. Not playful. Malaria risk area.",
+      "voiceNotes": [],
+      "attachments": [],
+      "status": "referred",
+      "triage": "refer_dh",
+      "urgency": "urgent",
+      "submittedAt": "2026-09-02T10:22:00",
+      "doctorAdvice": "Fever in malaria-risk child — do Malaria RDT + CBC at PHC today. If RDT positive, start treatment. Paracetamol syrup PRN.",
+      "doctorId": "doc-1",
+      "reviewedAt": "2026-09-02T10:45:00"
+    },
+    {
+      "id": "v-4",
+      "patientId": "p-2",
+      "ashaId": "asha-1",
+      "at": "2026-09-01T09:00:00",
+      "place": "Home · Wadsa",
+      "notes": "BP 152/94 this morning — higher than usual. Foot swelling mild. Says he forgot Amlodipine 2 days. Metformin running low (3 days left).",
+      "voiceNotes": [],
+      "attachments": [],
+      "status": "reviewed",
+      "triage": "not_emergency",
+      "urgency": "urgent",
+      "submittedAt": "2026-09-01T09:10:00",
+      "doctorAdvice": "Resume Amlodipine immediately. Restock Metformin at PHC. Fasting sugar + creatinine check this week. BP recheck in 3 days.",
+      "doctorId": "doc-1",
+      "reviewedAt": "2026-09-01T09:35:00"
+    },
+    {
+      "id": "v-5",
+      "patientId": "p-8",
+      "ashaId": "asha-1",
+      "at": "2026-09-03T08:30:00",
+      "place": "Home · Armori",
+      "notes": "6-week post-partum check. Hb done at home — 7.1 g/dL. Pallor +. Baby breastfeeding well but mother very tired. No fever. Lochia stopped.",
+      "voiceNotes": [
+        {
+          "id": "vn-3",
+          "createdAt": "2026-09-03T08:32:00",
+          "durationSec": 30,
+          "transcript": "Geeta tai, prasavanantar 6 aadhvade. Hb 7.1 — khup kami aahe. Thakawa janavto. Baby dudh pito aahe changale. Doctor urgent bagh."
+        }
+      ],
+      "attachments": [],
+      "status": "submitted",
+      "triage": "pending",
+      "urgency": "urgent",
+      "submittedAt": "2026-09-03T08:35:00"
+    },
+    {
+      "id": "v-6",
+      "patientId": "p-6",
+      "ashaId": "asha-1",
+      "at": "2026-09-02T07:30:00",
+      "place": "Home · Armori",
+      "notes": "TB DOTS — 3rd month. Dose observed. Cough improved. Weight: 54 kg (up 2 kg since last month). No adverse drug reactions reported.",
+      "voiceNotes": [],
+      "attachments": [],
+      "status": "reviewed",
+      "triage": "not_emergency",
+      "urgency": "routine",
+      "submittedAt": "2026-09-02T07:40:00",
+      "doctorAdvice": "Good progress on DOTS. Continue full course. Weight at PHC next Thursday. Sputum smear at 4 months.",
+      "doctorId": "doc-2",
+      "reviewedAt": "2026-09-02T09:00:00"
+    },
+    {
+      "id": "v-7",
+      "patientId": "p-7",
+      "ashaId": "asha-1",
+      "at": "2026-09-01T11:00:00",
+      "place": "Home · Wadsa",
+      "notes": "Weight 7.2 kg at 2 years (WAZ −3.4). MUAC 10.8 cm — red band. No oedema. Appetite moderate. Mother counselled on RUTF feeding 3× daily.",
+      "voiceNotes": [],
+      "attachments": [],
+      "status": "reviewed",
+      "triage": "not_emergency",
+      "urgency": "routine",
+      "submittedAt": "2026-09-01T11:15:00",
+      "doctorAdvice": "SAM confirmed. Collect RUTF from PHC on 4 Sep. Weigh every 2 weeks. Refer NRC if no improvement in 4 weeks.",
+      "doctorId": "doc-1",
+      "reviewedAt": "2026-09-01T12:00:00"
+    },
+    {
+      "id": "v-8",
+      "patientId": "p-5",
+      "ashaId": "asha-1",
+      "at": "2026-09-01T14:00:00",
+      "place": "Sub-centre · Pendhari",
+      "notes": "First ANC registration. 14 weeks. LMP 2026-05-23. General condition good. BP 110/70. Weight 48 kg. First baby.",
+      "voiceNotes": [],
+      "attachments": [],
+      "status": "reviewed",
+      "triage": "not_emergency",
+      "urgency": "routine",
+      "submittedAt": "2026-09-01T14:10:00",
+      "doctorAdvice": "Register at PHC. Blood group, Hb, HIV, VDRL, urine routine today. Start IFA + Calcium. TT dose 1. Next ANC at 18 weeks.",
+      "doctorId": "doc-2",
+      "reviewedAt": "2026-09-01T15:00:00"
+    }
+  ],
+  "FOLLOWUPS": [
+    {
+      "id": "f-1",
+      "patientId": "p-2",
+      "visitId": "v-4",
+      "from": "doctor",
+      "message": "Amlodipine ghyaychi visaroo naka. Fasting sugar + creatinine report PHC la dakhav. 4 Sep la BP recheck.",
+      "dueDate": "2026-09-04",
+      "done": false
+    },
+    {
+      "id": "f-2",
+      "patientId": "p-1",
+      "visitId": "v-1",
+      "from": "doctor",
+      "message": "BP high hota — 5 Sep la PHC la ya. TT booster + Hb recheck + IFA refill. Dokyat dukhat asla tar lagar ya.",
+      "dueDate": "2026-09-05",
+      "done": false
+    },
+    {
+      "id": "f-3",
+      "patientId": "p-7",
+      "visitId": "v-7",
+      "from": "phc",
+      "message": "RUTF collect kara PHC Armori madhun — 4 Sep. Darna naka, free aahe. Wajan daghalancha.",
+      "dueDate": "2026-09-04",
+      "done": false
+    },
+    {
+      "id": "f-4",
+      "patientId": "p-8",
+      "visitId": "v-5",
+      "from": "doctor",
+      "message": "Hb 7.1 — IV iron infusion la PHC la ya urgently. 3 Sep khud ya naahitar Sunita ASHA escort kareel.",
+      "dueDate": "2026-09-03",
+      "done": false
+    },
+    {
+      "id": "f-5",
+      "patientId": "p-5",
+      "visitId": "v-8",
+      "from": "phc",
+      "message": "Lab tests ready — PHC la ya reports ghyayala. IFA + Calcium ghavoon jaa. 7 Sep la TT dose 1.",
+      "dueDate": "2026-09-07",
+      "done": false
+    }
+  ],
+  "EMERGENCIES": [
+    {
+      "id": "e-1",
+      "patientId": "p-4",
+      "visitId": "v-2",
+      "raisedBy": "asha",
+      "reason": "Facial droop + right arm weakness — suspected stroke",
+      "status": "open",
+      "at": "2026-09-03T06:33:00",
+      "destination": "Rural Hospital Gadchiroli / 108 ambulance"
+    }
+  ],
+  "REFERRALS": [
+    {
+      "id": "ref-1",
+      "patientId": "p-3",
+      "visitId": "v-3",
+      "fromPhcId": "phc-gadchiroli",
+      "toFacility": "Rural Hospital Gadchiroli",
+      "reason": "Fever in child — malaria RDT + CBC. Paediatric OPD review.",
+      "priority": "urgent",
+      "status": "reached",
+      "at": "2026-09-02T11:00:00",
+      "reachedAt": "2026-09-02T12:30:00"
+    },
+    {
+      "id": "ref-2",
+      "patientId": "p-8",
+      "visitId": "v-5",
+      "fromPhcId": "phc-gadchiroli",
+      "toFacility": "PHC Armori (IV iron infusion)",
+      "reason": "Hb 7.1 g/dL post-partum — IV iron infusion + monitoring.",
+      "priority": "urgent",
+      "status": "referred",
+      "at": "2026-09-03T08:40:00"
+    },
+    {
+      "id": "ref-3",
+      "patientId": "p-2",
+      "visitId": "v-4",
+      "fromPhcId": "phc-gadchiroli",
+      "toFacility": "District Hospital Gadchiroli",
+      "reason": "CKD stage 2 — nephrology review + creatinine + eGFR.",
+      "priority": "routine",
+      "status": "treated",
+      "at": "2026-08-25T10:00:00",
+      "reachedAt": "2026-08-25T12:00:00",
+      "outcome": "Nephrology OPD: creatinine 1.8 mg/dL, eGFR 42. Advised low-protein diet. Follow-up in 6 weeks.",
+      "doctorId": "doc-1"
+    }
+  ],
+  "LABS": [
+    {
+      "id": "lab-1",
+      "patientId": "p-1",
+      "visitId": "v-1",
+      "phcId": "phc-gadchiroli",
+      "test": "Hb / anaemia",
+      "status": "ordered",
+      "orderedAt": "2026-09-03T07:52:00",
+      "orderedBy": "doc-1"
+    },
+    {
+      "id": "lab-2",
+      "patientId": "p-3",
+      "visitId": "v-3",
+      "phcId": "phc-gadchiroli",
+      "test": "Malaria RDT + Blood sugar",
+      "status": "result_ready",
+      "orderedAt": "2026-09-02T10:45:00",
+      "orderedBy": "doc-1",
+      "resultAt": "2026-09-02T13:00:00",
+      "result": "Malaria RDT: Negative. CBC: Hb 10.2, WBC normal. Diagnosis — viral fever. Paracetamol + rest."
+    },
+    {
+      "id": "lab-3",
+      "patientId": "p-2",
+      "visitId": "v-4",
+      "phcId": "phc-gadchiroli",
+      "test": "Blood sugar",
+      "status": "sample_collected",
+      "orderedAt": "2026-09-01T09:35:00",
+      "orderedBy": "doc-1"
+    },
+    {
+      "id": "lab-4",
+      "patientId": "p-5",
+      "visitId": "v-8",
+      "phcId": "phc-gadchiroli",
+      "test": "Hb / anaemia",
+      "status": "result_ready",
+      "orderedAt": "2026-09-01T15:00:00",
+      "orderedBy": "doc-2",
+      "resultAt": "2026-09-02T10:00:00",
+      "result": "Hb 10.6 g/dL, Blood group O+, HIV Negative, VDRL Negative, Urine: normal."
+    },
+    {
+      "id": "lab-5",
+      "patientId": "p-8",
+      "visitId": "v-5",
+      "phcId": "phc-gadchiroli",
+      "test": "Hb / anaemia",
+      "status": "result_ready",
+      "orderedAt": "2026-09-03T08:35:00",
+      "orderedBy": "doc-1",
+      "resultAt": "2026-09-03T09:30:00",
+      "result": "Hb 7.1 g/dL — severe anaemia. Iron studies: low ferritin. IV iron recommended."
+    }
+  ],
+  "STOCKOUTS": [
+    {
+      "id": "st-1",
+      "phcId": "phc-gadchiroli",
+      "medicine": "Amoxicillin 500mg",
+      "reportedBy": "asha-1",
+      "patientId": "p-2",
+      "note": "Dilip Atram bhauna prescription dile hote — stock nahi. Doctor ne lihile ahe.",
+      "at": "2026-09-01T09:40:00",
+      "status": "acknowledged"
+    },
+    {
+      "id": "st-2",
+      "phcId": "phc-gadchiroli",
+      "medicine": "Insulin (regular)",
+      "reportedBy": "asha-1",
+      "note": "Only 6 vials left. 3 diabetic patients need it. Request urgent resupply.",
+      "at": "2026-09-02T11:00:00",
+      "status": "reported"
+    }
+  ],
+  "EARNINGS": [
+    {
+      "id": "earn-1",
+      "ashaId": "asha-1",
+      "activity": "Institutional delivery incentive (August) — Geeta Dhurve",
+      "amount": 600,
+      "date": "2026-08-10",
+      "status": "paid"
+    },
+    {
+      "id": "earn-2",
+      "ashaId": "asha-1",
+      "activity": "ANC home visit × 4 — Kavita Meshram",
+      "amount": 1200,
+      "date": "2026-08-31",
+      "status": "paid"
+    },
+    {
+      "id": "earn-3",
+      "ashaId": "asha-1",
+      "activity": "NCD screening — Dilip Atram",
+      "amount": 50,
+      "date": "2026-08-28",
+      "status": "paid"
+    },
+    {
+      "id": "earn-4",
+      "ashaId": "asha-1",
+      "activity": "DOTS supervision (July–August) — Mohan Madavi",
+      "amount": 250,
+      "date": "2026-08-31",
+      "status": "paid"
+    },
+    {
+      "id": "earn-5",
+      "ashaId": "asha-1",
+      "activity": "SAM case identification + referral — Tara Uikey",
+      "amount": 200,
+      "date": "2026-08-20",
+      "status": "paid"
+    },
+    {
+      "id": "earn-6",
+      "ashaId": "asha-1",
+      "activity": "ANC registration (first visit) — Anusaya Korde",
+      "amount": 300,
+      "date": "2026-09-01",
+      "status": "approved"
+    },
+    {
+      "id": "earn-7",
+      "ashaId": "asha-1",
+      "activity": "ANC home visit (32 weeks) — Kavita Meshram",
+      "amount": 300,
+      "date": "2026-09-03",
+      "status": "pending"
+    },
+    {
+      "id": "earn-8",
+      "ashaId": "asha-1",
+      "activity": "Emergency escort — Sanjay Tekam (stroke referral)",
+      "amount": 150,
+      "date": "2026-09-03",
+      "status": "pending"
+    },
+    {
+      "id": "earn-9",
+      "ashaId": "asha-1",
+      "activity": "Post-partum home visit × 2 — Geeta Dhurve",
+      "amount": 200,
+      "date": "2026-09-03",
+      "status": "pending"
+    },
+    {
+      "id": "earn-10",
+      "ashaId": "asha-1",
+      "activity": "Immunisation follow-up — Riya Gota",
+      "amount": 100,
+      "date": "2026-09-02",
+      "status": "approved"
+    }
+  ],
+  "APPOINTMENTS": [
+    {
+      "id": "appt-1",
+      "patientId": "p-1",
+      "phcId": "phc-gadchiroli",
+      "doctorId": "doc-2",
+      "date": "2026-09-05",
+      "slot": "09:00–09:20",
+      "reason": "ANC 32-week check + Hb + TT booster",
+      "status": "booked",
+      "source": "asha"
+    },
+    {
+      "id": "appt-2",
+      "patientId": "p-2",
+      "phcId": "phc-gadchiroli",
+      "doctorId": "doc-1",
+      "date": "2026-09-04",
+      "slot": "10:00–10:20",
+      "reason": "BP recheck + creatinine result review",
+      "status": "booked",
+      "source": "asha"
+    },
+    {
+      "id": "appt-3",
+      "patientId": "p-8",
+      "phcId": "phc-gadchiroli",
+      "doctorId": "doc-1",
+      "date": "2026-09-03",
+      "slot": "11:00–11:30",
+      "reason": "IV iron infusion — severe post-partum anaemia",
+      "status": "confirmed",
+      "source": "asha"
+    },
+    {
+      "id": "appt-4",
+      "patientId": "p-5",
+      "phcId": "phc-gadchiroli",
+      "doctorId": "doc-2",
+      "date": "2026-09-07",
+      "slot": "09:20–09:40",
+      "reason": "TT dose 1 + lab result review",
+      "status": "booked",
+      "source": "asha"
+    }
+  ],
+  "SMS": [
+    {
+      "id": "sms-1",
+      "to": "9011223344",
+      "body": "Tumcha PHC Armori appointment 5 Sep, 9:00 AM ahe — ANC check + Hb. PHC: 07132-XXXXXX.",
+      "at": "2026-09-03T08:00:00",
+      "kind": "appointment"
+    },
+    {
+      "id": "sms-2",
+      "to": "9022334455",
+      "body": "Tumcha BP recheck 4 Sep, 10 AM PHC Armori. Fasting rane yaa (8 taas). Dr. Deshmukh.",
+      "at": "2026-09-01T10:00:00",
+      "kind": "followup"
+    },
+    {
+      "id": "sms-3",
+      "to": "9088990011",
+      "body": "Hb 7.1 — khup kami aahe. Aaj (3 Sep) PHC Armori la urgently yaa — IV iron infusion. Sunita ASHA: 9876501234.",
+      "at": "2026-09-03T08:40:00",
+      "kind": "emergency"
+    },
+    {
+      "id": "sms-4",
+      "to": "9033445566",
+      "body": "Riya chi malaria test negative aahe. Viral fever — Paracetamol dya. Better nahi zale tar 3 divsaat parabt yaa.",
+      "at": "2026-09-02T13:05:00",
+      "kind": "lab"
+    },
+    {
+      "id": "sms-5",
+      "to": "9055667788",
+      "body": "Anusaya, tumchya lab reports ready ahet. PHC Armori la yaa ani IFA, Calcium ghavoon jaa. TT dose 1 — 7 Sep.",
+      "at": "2026-09-02T10:05:00",
+      "kind": "followup"
+    }
+  ],
+  "CALLS": [
+    {
+      "id": "call-1",
+      "patientId": "p-2",
+      "startedAt": "2026-09-02T16:00:00",
+      "endedAt": "2026-09-02T16:03:00",
+      "outcome": "resolved",
+      "transcript": [
+        {
+          "role": "ai",
+          "text": "Namaskar Dilip ji, mi JanVaani bolto. PHC Armori la BP check sathi aaj yenar aahat ka?"
+        },
+        {
+          "role": "user",
+          "text": "Ho, udya subah yeto. BP tablet visaralo hoto, aaj gheto."
+        },
+        {
+          "role": "ai",
+          "text": "Dhanyawad. Metformin kami aahe — PHC la yeताна ghavoon jaa. Doctor ne sangitle aahe 4 Sep la yaa."
+        },
+        {
+          "role": "user",
+          "text": "Theek aahe, 4 tarikhela yeto."
+        }
+      ]
+    },
+    {
+      "id": "call-2",
+      "patientId": "p-6",
+      "startedAt": "2026-09-02T16:30:00",
+      "endedAt": "2026-09-02T16:32:00",
+      "outcome": "resolved",
+      "transcript": [
+        {
+          "role": "ai",
+          "text": "Namaskar Mohan ji, JanVaani bol raha hun. Aaj DOTS ki dawai li aapne?"
+        },
+        {
+          "role": "user",
+          "text": "Haan, Sunita didi ne diya tha subah."
+        },
+        {
+          "role": "ai",
+          "text": "Bahut achha. Weight check PHC mein 10 September ko hai — yaad rakhein."
+        }
+      ]
+    },
+    {
+      "id": "call-3",
+      "patientId": "p-7",
+      "startedAt": "2026-09-02T17:00:00",
+      "endedAt": "2026-09-02T17:04:00",
+      "outcome": "callback_needed",
+      "transcript": [
+        {
+          "role": "ai",
+          "text": "Namaskar, mi JanVaani. Tara sathi RUTF ghyayala PHC la 4 Sep la yayche aahe. Confirmed aahe ka?"
+        },
+        {
+          "role": "user",
+          "text": "PHC door aahe — rickshaw nahi milat."
+        },
+        {
+          "role": "ai",
+          "text": "Sunita ASHA la sangto, tya escort karnyacha prayatna kartil. Tumhi tayar raha."
+        }
+      ]
+    }
+  ],
+  "PHCS": [
+    {
+      "id": "phc-gadchiroli",
+      "name": "PHC Armori",
+      "village": "Armori",
+      "district": "Gadchiroli",
+      "open": "08:00",
+      "close": "16:00",
+      "todayOpen": true,
+      "doctorsOnDuty": [
+        "doc-1",
+        "doc-2"
+      ],
+      "queueMinutes": 22,
+      "medicines": [
+        {
+          "name": "Iron + Folic Acid (IFA)",
+          "qty": 380,
+          "unit": "strips"
+        },
+        {
+          "name": "ORS",
+          "qty": 64,
+          "unit": "packs"
+        },
+        {
+          "name": "Paracetamol 500mg",
+          "qty": 28,
+          "unit": "strips"
+        },
+        {
+          "name": "Amoxicillin 500mg",
+          "qty": 0,
+          "unit": "strips"
+        },
+        {
+          "name": "Metformin 500mg",
+          "qty": 72,
+          "unit": "strips"
+        },
+        {
+          "name": "Amlodipine 5mg",
+          "qty": 45,
+          "unit": "strips"
+        },
+        {
+          "name": "Calcium 500mg",
+          "qty": 110,
+          "unit": "strips"
+        },
+        {
+          "name": "Insulin (regular)",
+          "qty": 6,
+          "unit": "vials"
+        },
+        {
+          "name": "Albendazole 400mg",
+          "qty": 55,
+          "unit": "tabs"
+        }
+      ],
+      "diagnostics": [
+        {
+          "name": "Hb / anaemia",
+          "available": true
+        },
+        {
+          "name": "Malaria RDT",
+          "available": true
+        },
+        {
+          "name": "Blood sugar",
+          "available": true
+        },
+        {
+          "name": "Urine routine",
+          "available": true
+        },
+        {
+          "name": "X-ray",
+          "available": false
+        },
+        {
+          "name": "Ultrasound",
+          "available": false
+        }
+      ]
+    },
+    {
+      "id": "phc-nandurbar",
+      "name": "PHC Akkalkuwa",
+      "village": "Akkalkuwa",
+      "district": "Nandurbar",
+      "open": "08:30",
+      "close": "15:30",
+      "todayOpen": true,
+      "doctorsOnDuty": [
+        "doc-1"
+      ],
+      "queueMinutes": 38,
+      "medicines": [
+        {
+          "name": "ORS",
+          "qty": 18,
+          "unit": "packs"
+        },
+        {
+          "name": "IFA",
+          "qty": 75,
+          "unit": "strips"
+        }
+      ],
+      "diagnostics": [
+        {
+          "name": "Hb / anaemia",
+          "available": true
+        },
+        {
+          "name": "X-ray",
+          "available": false
+        }
+      ]
+    }
+  ],
+  "DOCTORS": [
+    {
+      "id": "doc-1",
+      "name": "Dr. Anjali Deshmukh",
+      "specialty": "MBBS · PHC Medical Officer",
+      "phcId": "phc-gadchiroli"
+    },
+    {
+      "id": "doc-2",
+      "name": "Dr. Rahul Kulkarni",
+      "specialty": "Ayush MO · Maternal & Child Health",
+      "phcId": "phc-gadchiroli"
+    }
+  ],
+  "ASHA": {
+    "id": "asha-1",
+    "name": "Sunita Pawar",
+    "phcId": "phc-gadchiroli",
+    "village": "Armori",
+    "phone": "9876501234"
+  }
+}

@@ -26,24 +26,59 @@ if (!MONGODB_URI) {
   process.exit(1);
 }
 
-// Dynamically trigger seed API or connect directly
+const seedDataPath = path.resolve(__dirname, "seed-data.json");
+if (!fs.existsSync(seedDataPath)) {
+  console.error("❌ seed-data.json not found in scripts directory.");
+  process.exit(1);
+}
+
+const seedData = JSON.parse(fs.readFileSync(seedDataPath, "utf-8"));
+
 console.log("🌱 Connecting to MongoDB for seeding...");
 
 try {
   await mongoose.connect(MONGODB_URI);
   console.log("✅ Connected to MongoDB.");
 
-  // Import seed data from seed.ts or a JSON export
+  const db = mongoose.connection.db;
+  console.log(`Target Database: ${mongoose.connection.name}`);
+
+  const collections = [
+    { name: "patients", items: seedData.PATIENTS },
+    { name: "visits", items: seedData.VISITS },
+    { name: "followups", items: seedData.FOLLOWUPS },
+    { name: "emergencies", items: seedData.EMERGENCIES },
+    { name: "referrals", items: seedData.REFERRALS },
+    { name: "laborders", items: seedData.LABS },
+    { name: "stockoutreports", items: seedData.STOCKOUTS },
+    { name: "earnings", items: seedData.EARNINGS },
+    { name: "appointments", items: seedData.APPOINTMENTS },
+    { name: "sms", items: seedData.SMS },
+    { name: "calllogs", items: seedData.CALLS },
+    { name: "phcs", items: seedData.PHCS },
+    { name: "doctors", items: seedData.DOCTORS },
+    { name: "ashas", items: [seedData.ASHA] },
+  ];
+
   console.log("Seeding collections idempotently...");
 
-  // Verify connection
-  const dbName = mongoose.connection.name;
-  console.log(`Target Database: ${dbName}`);
+  for (const col of collections) {
+    if (!col.items || !col.items.length) continue;
+    const collection = db.collection(col.name);
+    for (const item of col.items) {
+      await collection.updateOne(
+        { id: item.id },
+        { $set: item },
+        { upsert: true }
+      );
+    }
+    const count = await collection.countDocuments();
+    console.log(`  ✓ ${col.name}: ${count} documents`);
+  }
 
-  console.log("✅ Seed completed successfully. You can also trigger seeding via POST /api/seed.");
+  console.log("✅ Seed completed successfully. Database is ready.");
   await mongoose.disconnect();
 } catch (err) {
   console.error("❌ Seeding failed:", err.message);
   process.exit(1);
 }
-
